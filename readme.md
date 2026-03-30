@@ -129,7 +129,7 @@ Read the WFK file, compute the spectral weight $P(K,E)$ for each supercell k-poi
 
 ```bash
 rm -f easyunfold.json.bak   # optional backup
-easyunfold unfold calculate trf2_2o_WFK.nc
+easyunfold unfold calculate trf2_1o_WFK.nc
 ```
 
 ---
