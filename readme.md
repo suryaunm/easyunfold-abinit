@@ -21,7 +21,16 @@ find $SITE -name '*.pyc' -delete
 
 ### 2. Initialise easyunfold
 
-### Load python
+### Load python --- easley
+```bash
+module purge
+module load python/3.13.5-ajzf
+
+source  source ~/scratch-easley/codes/python/suryab/bin/activate
+
+```
+
+### Load python --- hopper
 ```bash
 module purge
 module load gcc/12.1.0-crtl
