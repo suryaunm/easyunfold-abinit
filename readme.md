@@ -26,7 +26,7 @@ find $SITE -name '*.pyc' -delete
 module purge
 module load python/3.13.5-ajzf
 
-source  source ~/scratch-easley/codes/python/suryab/bin/activate
+source ~/scratch-easley/codes/python/suryab/bin/activate
 
 ```
 
