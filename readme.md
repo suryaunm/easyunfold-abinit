@@ -137,11 +137,7 @@ easyunfold unfold calculate trf2_1o_WFK.nc
 ### 6. Plot the Unfolded Band Structure
 
 ```bash
-easyunfold unfold plot \
-    --eref <fermi_energy_in_eV> \
-    --emin -5 --emax 9 \
-    --intensity 10 \
-    -o unfolded_bands.png
+easyunfold unfold plot --emin -5 --emax 9 --intensity 10 --eref -o .png
 ```
 
 <details>
